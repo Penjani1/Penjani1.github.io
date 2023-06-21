@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All combos-hungrylion</title>
+    <link rel="stylesheet" href="style.css">
+     </head>
+    <body>
+        <div class="container">
+           <div class="navbar">
+             <div class="logo">
+            <a href="index.html"><img src="hungryLionLogo.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">home</a></li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="account.html">account</a></li>
+            </ul>
+        </nav> 
+        <img src="cart.png" width="25px" height="25px">
+        <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>  
+</div>
+
+<!-------single-products----------> 
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="PARTY-MEAL.png" width="100%">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="7-PIECE.png" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="7-PIECE.png" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="7-PIECE.png" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="7-PIECE.png" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>combo</p>
+                <h1>7 Big Pieces</h1>
+                <h4>K125.90</h4>
+                <select>
+                    <option>select combo</option>
+                    <option>king combo</option>
+                    <option>king combo with coco</option>
+                    <option>breakfast combo</option>
+                    <option>7 pieces with fruiticana</option>
+                </select>
+                <input type="number" value="1">
+                <a href="card.html" class="btn">Add to Cart</a>
+
+                <h3>Combo Details</h3>
+                <br>
+                <p>This is the only combo that brings back your ex,and that will forever
+                    put a beautiful on your family faces.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-------title-------->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="" class="btn"><p>View More</p></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<!------products-------->
+     <div class="small-container">
+
+           
+        <div class="row">
+            <div class="col-4">
+                <img src="BIG-BITE-3.png">
+                <h4>BIG 2 COMBO</h4>
+                <p>k69.99</p>
+            </div>
+            <div class="col-4">
+                <img src="SNACK-PACK.png">
+                <h4>BIG-VALUE-MEAL</h4>
+                <p>k48.99</p>
+            </div>
+            <div class="col-4">
+                <img src="Thumbnail_Zamba-Wing-Combo.jpg">
+                <h4>BIG 2 COMBO</h4>
+                <p>k59.99</p>
+            </div>
+            <div class="col-4">
+                <img src="BIG-VALUE-MEAL.png">
+                <h4>BIG-VALUE-MEAL</h4>
+                <p>k68.99</p>
+            </div>
+        </div>
+       
+     </div>
+    <!------footer----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html"><img src="hungryLionLogo.png"></a>
+                    <p>Our purpose Is To Sustainably Make The Pleasure and
+                        Benefits of hungrylion Accessible to many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                       <a href="https://mobile.facebook.com/HungryLionZM/?tsid=0.5317638669755405&source=result"><li>Facebook</li></a>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2023 - PLP final project</p>
+        </div>
+    </div>
+    <!-----js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                 {
+                    MenuItems.style.maxHeight = "200px"
+                 }
+             else
+             {
+                MenuItems.style.maxHeight = "0px";
+             }    
+        }
+    </script>
+     
+
+
+ 
+
+       
+
+    </body>
+     
+</html>
